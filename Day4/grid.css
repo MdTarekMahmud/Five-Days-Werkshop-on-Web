@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(234, 192, 184);
+}
+h1{
+    background-color: black;
+    color: azure;
+}
+.items{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 0;
+}
+.container{
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns:2fr 1.7fr 1.3fr;
+
+}
+#items1{
+    grid-column-start:1;
+    grid-column-end: 4;
+}

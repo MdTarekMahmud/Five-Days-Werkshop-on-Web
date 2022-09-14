@@ -1,0 +1,31 @@
+body{
+    background-color:gray;
+}
+h1{
+    background-color: aliceblue;
+}
+.container{
+
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+   
+}
+.boxes{
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px;
+
+}
+#one{
+    order: 3;
+    background-color: tomato;
+
+}
+#two{
+    background-color: aqua;
+}
+#three{
+    background-color: hotpink;
+}
